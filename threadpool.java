@@ -15,7 +15,9 @@ class Mythread implements Runnable{
     }
 }
 
-
+/*Integers 6 to 10 takes times to execute as thread pool limit is 5.
+only 5 threads are handled by threadpool simultaneously 
+other tasks are under waiting.*/
 class Main{
 
     public static void main(String[] args){
